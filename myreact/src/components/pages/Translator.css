@@ -1,0 +1,9 @@
+.translator {
+    background-color:#3c009d;
+    cursor: pointer;
+    border: none;
+    margin-left: 40px;
+  }
+  .translator:hover{
+    background-color:#3c009da4;
+  }

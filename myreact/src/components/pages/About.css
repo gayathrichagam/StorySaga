@@ -1,0 +1,74 @@
+.about-page {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  background-color: #f4f4f4;
+  padding: 50px 20px;
+  background-image: url(page-icon.jpg);
+}
+
+.title{
+  color:#fff;
+  font-size: 3em;
+  margin-bottom: 50px;
+}
+.about-header {
+  padding: 30px 20px;
+  background-color: #fff;
+  color: #333;
+  border-radius: 8px;
+  margin-bottom: 40px;
+}
+
+.about-header h1 {
+  margin: 0;
+  font-size: 10em;
+  font-weight: bold;
+}
+
+.about-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-card {
+  border:  #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 10px;
+  width: 80%;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.about-card:hover {
+  transform: scale(1.05);
+  background-image: linear-gradient(to right, rgb(4, 4, 4),#dbc8d0);
+}
+
+.about-card h2 {
+  font-size: 2em;
+  color: #333;
+}
+
+.about-card p {
+  font-size: 1em;
+  color: #fff;
+}
+
+.about-team {
+  margin-top: 50px;
+}
+
+
+
+
+
+
+@media (max-width: 768px) {
+  .about-card {
+    width: 90%;
+  }
+
+  
+}

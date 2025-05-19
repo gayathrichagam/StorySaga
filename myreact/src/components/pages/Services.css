@@ -1,0 +1,105 @@
+.services-page {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  background:#b89f9fa2 ;
+  min-height: 100vh; 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: url("./page-icon.jpg") center center / cover no-repeat;
+}
+
+
+.services-header {
+  background-size: cover;
+  padding: 50px 20px;
+  color: white;
+}
+
+.services-header h1 {
+  margin: 0;
+  font-size: 3em;
+  font-weight: bold;
+}
+
+.services-nav {
+  margin-top: 20px;
+}
+
+.services-nav span {
+  margin: 0 10px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.service-card {
+  border-radius: 8px;
+  padding: 20px;
+  margin-top: -100px;
+  width: 14%;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  height: 400px;
+  /* width: 250px; */
+}
+
+.service-card h2 {
+  margin-top: 0;
+  padding-bottom: 20px;
+  font-size: 1.5em;
+  color: #fff;
+}
+
+.service-card p {
+  font-size: 1em;
+  color: #fff;
+}
+
+/* Ensure the service cards are responsive */
+@media (max-width: 768px) {
+  .service-card {
+    width: 45%;
+  }
+}
+
+@media (max-width: 480px) {
+  .service-card {
+    width: 90%;
+  }
+}
+/* Add these styles to your existing CSS file */
+
+.service-card:hover {
+transform: scale(1.05);
+}
+
+
+
+/* Add these styles to your existing CSS file */
+.services-list {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+margin: 20px 0;
+flex-grow: 0.5; /* Make the services list grow to fill available space */
+}
+
+
+
+.service-card:hover {
+transform: scale(1.05);
+background-image: linear-gradient(to right, rgba(255,0,0,0),#000);;
+}
+
+/* Ensure the service cards are responsive */
+@media (max-width: 768px) {
+.service-card {
+  width: 45%;
+}
+}
+
+@media (max-width: 480px) {
+.service-card {
+  width: 90%;
+}
+}
